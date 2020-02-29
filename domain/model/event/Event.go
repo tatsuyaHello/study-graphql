@@ -2,9 +2,10 @@ package event
 
 import (
 	"errors"
-	"github.com/mitubaEX/graphQL_sample/domain/model/user"
-	"github.com/google/uuid"
 	"time"
+
+	"github.com/google/uuid"
+	"github.com/tatsuyaHello/study-graphql/graphQL_sample/domain/model/user"
 )
 
 type Event struct {

@@ -1,7 +1,7 @@
 package user
 
 import (
-	"github.com/mitubaEX/graphQL_sample/domain/model/user"
+	"github.com/tatsuyaHello/study-graphql/graphQL_sample/domain/model/user"
 )
 
 type UserRepository interface {

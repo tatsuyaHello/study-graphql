@@ -1,8 +1,8 @@
 package infrastructure
 
 import (
-	"github.com/mitubaEX/graphQL_sample/infrastructure/event"
-	"github.com/mitubaEX/graphQL_sample/infrastructure/user"
+	"github.com/tatsuyaHello/study-graphql/graphQL_sample/infrastructure/event"
+	"github.com/tatsuyaHello/study-graphql/graphQL_sample/infrastructure/user"
 )
 
 var NewUserRepository func() user.UserRepository = user.NewUserRepositoryMem

@@ -3,10 +3,11 @@ package main
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/graphql-go/graphql"
-	"github.com/mitubaEX/graphQL_sample/application/graphql_util"
 	"io/ioutil"
 	"net/http"
+
+	"github.com/graphql-go/graphql"
+	"github.com/tatsuyaHello/study-graphql/graphQL_sample/application/graphql_util"
 )
 
 func executeQuery(query string, schema graphql.Schema) *graphql.Result {

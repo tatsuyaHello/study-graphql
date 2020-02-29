@@ -1,8 +1,8 @@
 package service
 
 import (
-	"github.com/mitubaEX/graphQL_sample/domain/model/user"
-	"github.com/mitubaEX/graphQL_sample/infrastructure"
+	"github.com/tatsuyaHello/study-graphql/graphQL_sample/domain/model/user"
+	"github.com/tatsuyaHello/study-graphql/graphQL_sample/infrastructure"
 )
 
 func FindUserById(userId string) (*user.User, error) {

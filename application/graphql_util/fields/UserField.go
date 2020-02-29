@@ -2,11 +2,12 @@ package fields
 
 import (
 	"errors"
-	"github.com/mitubaEX/graphQL_sample/application/graphql_util/types"
-	"github.com/mitubaEX/graphQL_sample/domain/model/user"
-	"github.com/mitubaEX/graphQL_sample/domain/service"
-	"github.com/mitubaEX/graphQL_sample/infrastructure"
+
 	"github.com/graphql-go/graphql"
+	"github.com/tatsuyaHello/study-graphql/graphQL_sample/application/graphql_util/types"
+	"github.com/tatsuyaHello/study-graphql/graphQL_sample/domain/model/user"
+	"github.com/tatsuyaHello/study-graphql/graphQL_sample/domain/service"
+	"github.com/tatsuyaHello/study-graphql/graphQL_sample/infrastructure"
 )
 
 // fetch single user

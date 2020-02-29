@@ -2,7 +2,8 @@ package event
 
 import (
 	"errors"
-	"github.com/mitubaEX/graphQL_sample/domain/model/event"
+
+	"github.com/tatsuyaHello/study-graphql/graphQL_sample/domain/model/event"
 )
 
 type EventRepositoryMem struct {
